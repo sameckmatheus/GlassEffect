@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/jess-harding-lqT6NAmTaiY-unsplash.jpg");
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
     font-family: "Rajdhani", sans-serif;
@@ -23,7 +23,7 @@ body {
 .glass {
     height: 100%;
     width: 100%;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/jess-harding-lqT6NAmTaiY-unsplash.jpg");
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
     -webkit-clip-path: inset(10em);
@@ -31,7 +31,7 @@ body {
     filter: blur(20px);
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
 }
 
 .drop-shadow {
@@ -54,6 +54,7 @@ body {
     border-left: 1px solid rgba(225, 225, 225, 0.1);
     border-right: 1px solid rgba(225, 225, 225, 0.3);
     z-index: 2;
+    border-radius: 10px;
 }
 
 .drop-shadow > span {

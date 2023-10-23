@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300&display=swap");
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/jess-harding-lqT6NAmTaiY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Rajdhani", sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
